@@ -27,7 +27,7 @@ const Home = () => {
           <div className="book-right">
             <div className="right-underline">&nbsp;</div>
             <h1 className="title">ARCSTEE Yearbook 2022</h1>
-            <h2 className="sub-title">Rainnanssance class</h2>
+            <h2 className="sub-title">Renaissance class</h2>
             <span className="extra">to the moon!!!</span>
             <p className="bottom-paragraph">
               {" "}
