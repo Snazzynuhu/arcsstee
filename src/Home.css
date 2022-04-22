@@ -1,0 +1,214 @@
+.container {
+    width: 100vw;
+    height: calc(100vh - 47px);
+    background: url('./images/earth.jpg');
+    background-color: darkblue;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+.book {
+    width: 90%;
+    height: 80%;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 10px 2rem 0px;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+}
+
+.book-left {
+    background: linear-gradient(var(--left-page-color) 30%, var(--background-contrast-color) 30%);
+    flex: 1;
+    text-align: center;
+    padding: 1rem 3rem;
+    box-shadow: inset -1.2rem 0px 2rem 0px;
+    z-index: 3;
+}
+.left-title{
+    font-size: 3rem;
+}
+
+.left-underline {
+    background-color: var(--background-contrast-color);
+    width: 8rem;
+    height: 0.8rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem auto;
+}
+
+.lower-paragraph {
+    margin: 6rem 0;
+}
+
+/* RIGHT PAGE STYLE BEGINS */
+.book-right {
+    position: relative;
+    border-left: 2px solid #000;
+    background: transparent;
+    color: white;
+    flex: 1;
+    padding: 1rem 3rem;
+}
+
+.right-underline {
+    background-color: var(--left-page-color);
+    width: 15rem;
+    height: 0.8rem;
+    border-radius: 0.5rem;
+    margin-top: 3rem;
+}
+
+.title {
+    font-size: 4rem;
+    line-height: 4rem;
+    margin: 0.5rem 0 2rem 0;
+    text-align: left;
+}
+
+.sub-title {
+    font-size: 2.5rem;
+    color: var(--left-page-color);
+    text-transform: capitalize;
+}
+
+.extra {
+    font-size: 2rem;
+    font-weight: bold;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.5rem;
+}
+
+.bottom-paragraph {
+    position: absolute;
+    bottom: 1rem;
+    right: 0;
+    padding: 0 1rem;
+}
+.footer{
+    display: block;
+    width: 100%;
+    background: linear-gradient(45deg, var(--left-page-color), blue);
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+}
+.footer > .portfolio-link{
+    display: inline-block;
+    color: var(--left-page-color);
+    margin-left: 1.8rem;
+    text-decoration: none;
+    animation: bounce 2s linear infinite;
+}
+@keyframes bounce {
+    0%{transform: translateX(-2rem);}
+    50%{transform: translateX(2rem);}
+    75%{transform: translateX(1rem);}
+    100%{transform: translateX(0);}
+   
+    
+}
+/* RESPONSIVENESS */
+@media (max-width: 770px) {
+    .book-left {
+        padding: 1rem 3rem;
+        box-shadow: inset -1.2rem 0px 2rem 0px;
+        z-index: 3;
+    }
+    
+    .left-title {
+        font-size: 2rem;
+    }
+}
+@media (max-width:600px) {
+    .book {
+        width: 90%;
+        height: 90%;
+    }
+    .upper-paragraph{
+        margin-top: 1rem;
+    }
+    .title {
+        font-size: 3.3rem;
+    }
+    
+    .sub-title {
+        font-size: 2rem;
+        margin-top: -2rem;
+        background-color: #000;
+        padding: 0 0.5rem;
+        border-radius: 1rem;
+    }
+    
+    .extra {
+        font-size: 1.5rem;
+        font-weight: bold;
+        word-spacing: 0.2rem;
+        letter-spacing: 0.5rem;
+    }
+}
+@media (max-width:400px) {
+    .book {
+        width: 80%;
+        height: 90%;
+    }
+
+    .upper-paragraph {
+        margin-top: 0.5rem;
+    }
+    .book-right {
+        padding: 0.5rem 2rem;
+    }
+    .book-left{
+        padding: 1rem 2rem;
+    }
+
+    .title {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .sub-title {
+        font-size: 1.5rem;
+        margin-top: -1rem;
+        padding: 0 0.3rem;
+        border-radius: 0.3rem;
+    }
+
+    .extra {
+        font-size: 1rem;
+        font-weight: bold;
+        word-spacing: 0.2rem;
+        letter-spacing: 0.3rem;
+    }
+}
+@media (max-width:330px){
+    .book-right {
+        padding: 0.5rem 1rem;
+    }
+    
+    .book-left {
+        padding: 1rem 1rem;
+    }
+    .title {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    
+    .sub-title {
+        font-size: 0.5rem;
+        margin-top: -1rem;
+        padding: 0 0.2rem;
+        border-radius: 0.3rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .extra {
+        font-size: 0.5rem;
+        font-weight: 300;
+        word-spacing: 0.1rem;
+        letter-spacing: 0.1rem;
+    }
+}

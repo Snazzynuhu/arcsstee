@@ -1,0 +1,119 @@
+.back-link-btn {
+    margin: 2rem 1rem 0;
+    background: transparent;
+    border: none;
+}
+.back-link{
+    background-color: transparent;
+    color: var(--left-page-color);
+    text-transform: lowercase;
+    padding: 0.3rem 1.5rem;
+    border: 2px solid var(--left-page-color);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+
+.back-link:hover{
+    color: #fff;
+    background-color: var(--left-page-color);
+    transition: all 0.5s linear;
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.main-container {
+    width: 100vw;
+    height: 100%;
+    padding: 3rem;
+    background: url('./images/earth.jpg');
+    background-color: lemonchiffon;
+    background-size: cover;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.image-container {
+    flex: 1;
+    background: transparent;
+    background-color: rgba(209, 205, 205, 0.247);
+    border-radius: 1rem;
+    border: 3px solid rgba(222, 219, 219, 0.45);
+    padding: 1rem;
+}
+
+.content-container {
+    flex: 3;
+    background: transparent;
+    background-color: rgba(209, 205, 205, 0.247);
+    border-radius: 1rem;
+    border: 3px solid rgba(222, 219, 219, 0.45);
+    padding: 1rem;
+}
+.name, .job, .quote, .course, .about{
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+.quote-content{
+    font-weight: bold;
+}
+.name>span,.job>span,.course>span,.quote-content{
+    color: var(--left-page-color);
+}
+.about-content{
+    font-weight: bold;
+    line-height: 2.5rem;
+}
+.pdf-link{
+    margin-top: 2rem;
+    transition: all 0.25s linear;
+}
+.pdf-link:hover{
+    margin-top: 2.5rem;
+    transition: all 0.25s linear;
+}
+.pdf-link>a{
+    background-color: #000;
+    padding: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--left-page-color);
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 770px) {
+    
+.main-container {
+    width: 100vw;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.image-container {
+    flex: 1;
+    background: transparent;
+    background-color: rgba(209, 205, 205, 0.247);
+    border-radius: 1rem;
+    border: 3px solid rgba(222, 219, 219, 0.45);
+    padding: 1rem;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+.image-container > .image{
+    width: 100%;
+    height: 100%;
+}
+}
