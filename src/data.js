@@ -74,7 +74,7 @@ export const data = [
   },
   {
     id: 5,
-    name: "Aruwa Samson",
+    name: "aruwa samson",
     image: samA,
     imageb: samB,
     facebook: "#",

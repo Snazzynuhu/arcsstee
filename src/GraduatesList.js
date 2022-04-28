@@ -1,20 +1,15 @@
-import React from "react";
+import React,{useState} from "react";
 import EachGraduate from "./EachGraduate";
 import Loading from "./Loading";
 import { useGlobalContext } from "./context";
-import { data } from "./data";
 import "./List.css";
 import { Link } from "react-router-dom";
 import { AiFillMail } from "react-icons/ai";
-import {
-  FaLinkedin,
-  FaFacebookSquare,
-  FaTwitterSquare,
-  FaWhatsappSquare,
-} from "react-icons/fa";
+import {FaLinkedin,FaFacebookSquare,FaTwitterSquare,FaWhatsappSquare} from "react-icons/fa";
 
-const GraduatesList = () => {
+const GraduatesList = ({list}) => {
   const { graduates, loading } = useGlobalContext();
+  
   if (loading) {
     return <Loading />;
   }
@@ -27,7 +22,7 @@ const GraduatesList = () => {
     <>
       <h1 className="title">Graduands List</h1>
       <section className="list-section">
-        {data.map((item) => {
+        {list.map((item) => {
           const {
             name,
             image,
@@ -37,7 +32,7 @@ const GraduatesList = () => {
             facebook,
             twitter,
             linkedin,
-            project,
+            project
           } = item;
           return (
             <article key={item.id} className="single-person">
@@ -59,6 +54,12 @@ const GraduatesList = () => {
                 </a>
                 <a href={linkedin} target="_blank">
                   <FaLinkedin />
+                </a>
+                <a href={linkedin} target="_blank">
+                  <FaWhatsappSquare />
+                </a>
+                <a href={linkedin} target="_blank">
+                  <AiFillMail />
                 </a>
               </div>
               <Link to={`/graduate/${id}`} className="more-details">

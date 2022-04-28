@@ -17,6 +17,7 @@ header{
 
 .hamburger{
     margin-left: auto;
+    display: none;
 }
 .hamburger .hamburger-icon{
     font-size: 2.5rem;
@@ -103,6 +104,9 @@ header{
     }
     .nav{
         display: none;
+    }
+    .hamburger {
+        display: block;
     }
 
 }
