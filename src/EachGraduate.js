@@ -13,7 +13,7 @@ const EachGraduate = () => {
           back to list
         </Link>
       </button>
-      <h1 className="title">meet one of our exceptional graduates</h1>
+      <h1 className="title-meet">meet one of our exceptional graduates</h1>
       <div className="main-container">
         <div className="image-container">
           <img className="image" src={data[id - 1].imageb} />

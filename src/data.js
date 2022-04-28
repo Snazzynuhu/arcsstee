@@ -22,12 +22,12 @@ export const data = [
     facebook: "#",
     twitter: "https://twitter.com/NuhSnazzy",
     linkedin: "https://www.linkedin.com/in/nuhu-haruna-602164154/",
-    profession: "Dietician",
+    profession: "web developer/phytologist",
     department: "RSG",
     quote: "Laissez faire",
     project: alabipdf,
     about:
-      " I'm sapiosexual, nihilist and a lover of philosohpy....The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg! n all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!n all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!n all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
+      "Hello there! I am Nuhu, a full-stack developer and fitness aficionado. I love to write on JavaScript, ECMAScript, React, Flask and Laravel.I'm currently working on a project that would ensure the conservation of plants/trees with special preference to medicinal plants. You can call me a Plantsman",
   },
   {
     id: 2,

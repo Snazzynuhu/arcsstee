@@ -36,6 +36,7 @@ height: 25rem;
 }
 .graduate-job>span,.graduate-name>span{
     color: var(--left-page-color);
+    font-family: var(--font2);
 }
 .graduate-name,.graduate-job{
     text-transform: capitalize;

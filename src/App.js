@@ -8,6 +8,7 @@ import EachGraduate from './EachGraduate';
 import Error from './Error';
 import Home from './Home';
 
+
 function App() {
   return (
     <>

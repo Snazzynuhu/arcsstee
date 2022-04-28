@@ -1,17 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Oleo+Script&display=swap');
+
+/* font-family: 'Cookie',
+cursive;
+font-family: 'Oleo Script',
+cursive; */
+:root {
+  --background-color: rgba(111, 62, 42, 0.974);
+  --background-contrast-color: lightgray;
+  --left-page-color: goldenrod;
+  --right-page-color: rgb(16, 16, 16);
+  --font1: 'Cookie', cursive;
+  --font2: 'Oleo Script', cursive;
+}
+body, html {
+  font-family: 'Josefin Sans', cursive;
+  font-size: 62.5%;
+}
 *, *::after,*::before{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-:root{
-  --background-color: rgba(111, 62, 42, 0.974);
-  --background-contrast-color: lightgray;
-  --left-page-color: goldenrod;
-  --right-page-color: rgb(16, 16, 16);
-}
-html{
-  font-size: 62.5%;
-}
+
 
 /* LOADING ANIMATION */
 .loading{

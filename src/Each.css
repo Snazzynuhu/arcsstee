@@ -8,6 +8,7 @@
     color: var(--left-page-color);
     text-transform: lowercase;
     padding: 0.3rem 1.5rem;
+    margin-left: 2rem;
     border: 2px solid var(--left-page-color);
     border-radius: 0.5rem;
     text-decoration: none;
@@ -22,9 +23,15 @@
     transition: all 0.5s linear;
 }
 
-.title{
+.title-meet{
     text-align: center;
-    margin: 0 auto;
+    margin: 1rem auto 0.5rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background: linear-gradient(rgb(132, 2, 126), yellow);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px -4px rgb(119, 201, 233);
 }
 
 .main-container {
@@ -62,14 +69,26 @@
 }
 .quote-content{
     font-weight: bold;
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: rgba(16, 16, 16, 0.655);
 }
 .name>span,.job>span,.course>span,.quote-content{
     color: var(--left-page-color);
+    font-family: var(--font2);
+    font-weight: lighter;
 }
-.about-content{
-    font-weight: bold;
-    line-height: 2.5rem;
+.about-content, .quote-content{
+    line-height: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: rgba(16, 16, 16, 0.655);
 }
+
 .pdf-link{
     margin-top: 2rem;
     transition: all 0.25s linear;
