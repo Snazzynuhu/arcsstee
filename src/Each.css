@@ -28,10 +28,10 @@
     margin: 1rem auto 0.5rem;
     font-size: 3rem;
     text-transform: uppercase;
-    background: linear-gradient(rgb(132, 2, 126), yellow);
+    background: linear-gradient(rgb(2, 80, 132), yellow);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 1px -4px rgb(119, 201, 233);
+    text-shadow: 1px -4px rgb(1, 0, 2);
 }
 
 .main-container {

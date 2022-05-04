@@ -4,7 +4,7 @@ import "./App.css";
 import "./Home.css";
 
 const Home = () => {
-  const year = new Date().getFullYear();
+  
   return (
     <>
       <div className="container">
@@ -41,16 +41,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <footer className="footer">
-        copyright &copy;<span>{year}</span>. developed by{" "}
-        <a
-          href="https://harunanuhu-portfolio.netlify.app/"
-          target="_blank"
-          className="portfolio-link"
-        >
-          haruna nuhu
-        </a>
-      </footer>
     </>
   );
 };

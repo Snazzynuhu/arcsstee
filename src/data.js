@@ -27,7 +27,7 @@ export const data = [
     quote: "Laissez faire",
     project: alabipdf,
     about:
-      "Hello there! I am Nuhu, a full-stack developer and fitness aficionado. I love to write on JavaScript, ECMAScript, React, Flask and Laravel.I'm currently working on a project that would ensure the conservation of plants/trees with special preference to medicinal plants. You can call me a Plantsman",
+      "Hello there! I am Nuhu, a full-stack developer and fitness aficionado. I love to write on JavaScript, ECMAScript, React, Flask and Laravel.I'm currently working on a project that would ensure the conservation of plants/trees with preference to medicinal plants. You can call me a Plantsman",
   },
   {
     id: 2,

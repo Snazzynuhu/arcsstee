@@ -7,6 +7,7 @@ import Graduates from './Graduates';
 import EachGraduate from './EachGraduate';
 import Error from './Error';
 import Home from './Home';
+import Footer from './Footer';
 
 
 function App() {
@@ -19,8 +20,8 @@ function App() {
    <Route path='/graduates' element={<Graduates/>}/>
    <Route path='/graduate/:value' element={<EachGraduate/>}/>
    <Route path='/*' element={<Error/>}/>
-
    </Routes>
+   <Footer/>
     </>
   );
 }
