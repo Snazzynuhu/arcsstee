@@ -3,9 +3,9 @@ import './About.css'
 
 const About = () => {
   return (
-    <div className='container'>
+    <div className="container abt-container">
       <h1 className="about-title">about arcsste-e</h1>
-      <p>
+      <p className="content">
         The African Regional Centre for Space Science and Technology Education
         in English (ARCSSTE-E) was inaugurated in Nigeria on 24th November, 1998
         and affiliated to the UN Office for Outer Space Affairs (OOSA). A number
@@ -24,19 +24,14 @@ const About = () => {
         Nigeria is Obafemi Awolowo University, Ile-Ife.
       </p>
       <div>
-        <h2>VISION</h2>
-        <p>
+        <h2 className="sub-heading">VISION AND MISSION</h2>
+        <p className="content">
           Human Resources Development & Public Awareness in the African Region
           of the benefits and Applications of Space Science & Tech. for the
           sustainable development of the region and improvement on the quality
           of life of the people, through rigorous education/ training and
           outreach programmes, thereby empowering and informing the people on
-          Space for Development.
-        </p>
-      </div>
-      <div>
-        <h2>MISSION</h2>
-        <p>
+          Space for Development.<br/>
           To build a high quality capacity and critical mass of indigenous Space
           Scientists/ Educators in English speaking African countries for the
           development and application of Space Science & Technology for
@@ -44,8 +39,8 @@ const About = () => {
         </p>
       </div>
       <div>
-        <h2>MANDATE</h2>
-        <p>
+        <h2 className="sub-heading">MANDATE</h2>
+        <p className="content">
           To develop skills and knowledge in 5 prime areas: Remote Sensing/ GIS;
           Satellite Meteorology & Global Climate; Satellite Communication; Basic
           Space & Atmospheric Science and Global Navigation Satellite System.

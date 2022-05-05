@@ -1,9 +1,5 @@
 import image1 from "./images/pass.jpg";
 import image1b from "./images/snazzo.jpg";
-import image2 from "./images/fred.jpg";
-import image2b from "./images/eneche.jpg";
-import image3 from "./images/kab2.jpg";
-import image3b from "./images/kabir.jpg";
 import patA from "./images/paternusA.jpg";
 import patB from "./images/paternusB.jpg";
 import samA from "./images/samA.jpg";
@@ -34,18 +30,18 @@ console.log(image1);
 export const data = [
   {
     id: 1,
-    name: "nuhu haruna",
-    image: image1,
-    imageb: image1b,
+    name: "anitha livinus",
+    image: anitaA,
+    imageb: anitaB,
     facebook: "#",
-    twitter: "https://twitter.com/NuhSnazzy",
-    linkedin: "https://www.linkedin.com/in/nuhu-haruna-602164154/",
-    profession: "web developer/phytologist",
-    department: "RSG",
-    quote: "Laissez faire",
+    twitter: "https://twitter.com/#",
+    linkedin: "https://www.linkedin.com/in/#",
+    profession: "space scientist",
+    department: "SATCOM",
+    quote: "I go crush you",
     project: alabipdf,
     about:
-      "Hello there! I am Nuhu, a full-stack developer and fitness aficionado. I love to write on JavaScript, ECMAScript, React, Flask and Laravel.I'm currently working on a project that would ensure the conservation of plants/trees with preference to medicinal plants. You can call me a Plantsman",
+      " Please call me King Solomon and a firm believer of a better Nigeria....The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg! n all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!n all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!n all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
   },
   {
     id: 2,
@@ -121,6 +117,21 @@ export const data = [
   },
   {
     id: 7,
+    name: "nuhu haruna",
+    image: image1,
+    imageb: image1b,
+    facebook: "#",
+    twitter: "https://twitter.com/NuhSnazzy",
+    linkedin: "https://www.linkedin.com/in/nuhu-haruna-602164154/",
+    profession: "web developer/phytologist",
+    department: "RSG",
+    quote: "Laissez faire",
+    project: alabipdf,
+    about:
+      "Hello there! I am Nuhu, a full-stack developer and fitness aficionado. I love to write on JavaScript, ECMAScript, React, Flask and Laravel. I'm currently working on a project that would ensure the conservation of plants/trees with preference to medicinal plants. You can call me a Plantsman.",
+  },
+  {
+    id: 8,
     name: "sani umar",
     image: umarA,
     imageb: umarB,
@@ -136,7 +147,7 @@ export const data = [
       " I'm not but just a man with aspiration of a better life for me and for everyone. Wish good for others, that which you wish for yourself.",
   },
   {
-    id: 8,
+    id: 9,
     name: "adeola akinwade",
     image: deolaA,
     imageb: deolaA,
@@ -150,21 +161,22 @@ export const data = [
       " The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
   },
   {
-    id: 9,
-    name: "alex tosin olumide",
-    image: alexA,
-    imageb: alexB,
-    facebook: "https://www.kabir.com",
-    twitter: "https://www.snazzy.com",
-    linkedin: "https://www.snazzy.com",
-    profession: "resource personnel(ARCSTEE)",
+    id: 10,
+    name: "marie-ann chiedza maringapasi",
+    image: marieA,
+    imageb: marieB,
+    facebook: "https://www.facebook.com/marieann.maringapasi",
+    twitter: "https://twitter.com/marieanncm",
+    linkedin: "https://www.linkedin.com/in/marie-ann-maringapasi-4901421a5//",
+    profession: "space scientist",
     department: "SATCOM",
-    quote: "Laissez faire",
+    quote: "The only real elegance is in the mind",
+    project: alabipdf,
     about:
-      " The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
+      "I am a scientist who is passionate about aeronautics and astronautics. The knowledge of the science is a torch to humanity",
   },
   {
-    id: 10,
+    id: 11,
     name: "Mafiana Chinedum",
     image: neduA,
     imageb: neduB,
@@ -180,7 +192,7 @@ export const data = [
       "I'm mostly reserved, sometimes focused but I always like to make jokes. I also like to get things done on time and efficiently. I'm an optimistic person and I believe things will get better for me, so I work towards becoming  a better version of myself.",
   },
   {
-    id: 11,
+    id: 12,
     name: "joseph bundoo",
     image: bundooA,
     imageb: bundooB,
@@ -195,33 +207,17 @@ export const data = [
       " Call me Joe. I am a firm believer of a better Liberia....The best Lorem Ipsum Generator in ",
   },
   {
-    id: 12,
-    name: "anitha livinus",
-    image: anitaA,
-    imageb: anitaB,
-    facebook: "#",
-    twitter: "https://twitter.com/#",
-    linkedin: "https://www.linkedin.com/in/#",
-    profession: "space scientist",
-    department: "SATCOM",
-    quote: "I go crush you",
-    project: alabipdf,
-    about:
-      " Please call me King Solomon and a firm believer of a better Nigeria....The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg! n all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!n all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!n all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
-  },
-  {
     id: 13,
-    name: "marie-ann chiedza maringapasi",
-    image: marieA,
-    imageb: marieB,
-    facebook: "https://www.facebook.com/marieann.maringapasi",
-    twitter: "https://twitter.com/marieanncm",
-    linkedin: "https://www.linkedin.com/in/marie-ann-maringapasi-4901421a5//",
-    profession: "space scientist",
+    name: "alex tosin olumide",
+    image: alexA,
+    imageb: alexB,
+    facebook: "https://www.kabir.com",
+    twitter: "https://www.snazzy.com",
+    linkedin: "https://www.snazzy.com",
+    profession: "resource personnel(ARCSTEE)",
     department: "SATCOM",
-    quote: "The only real elegance is in the mind",
-    project: alabipdf,
+    quote: "Laissez faire",
     about:
-      "I am a scientist who is passionate about aeronautics and astronautics. The knowledge of the science is a torch to humanity",
+      " The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
   },
 ];

@@ -4,24 +4,20 @@ import "./App.css";
 import "./Home.css";
 
 const Home = () => {
-  
   return (
     <>
       <div className="container">
         <div className="book">
           <div className="book-left">
-            <h1 className="left-title">RSG-SATCOM SET</h1>
+            <h1 className="left-title">RSG-SATCOM</h1>
 
             <div className="left-underline">&nbsp;</div>
-            <p className="upper-paragraph">
-              The best Lorem Ipsum Generator in all the sea! Heave this scurvy
-              copy.
-            </p>
+            <p className="upper-paragraph">(ARCSSTE-E)</p>
             <p className="lower-paragraph">
-              The best Lorem Ipsum Generator in all the sea! Heave this scurvy
-              copyfiller fer yar next adventure and cajol yar clients into
-              walking the plank with ev'ry layout! Configure above, then get yer
-              pirate ipsum...own the high seas, arg!
+              The African Regional Centre for Space Science and Technology
+              Education in English (ARCSSTE-E) was inaugurated in Nigeria on
+              24th November, 1998 and affiliated to the UN Office for Outer
+              Space Affairs (OOSA).
             </p>
           </div>
           <div className="book-right">
