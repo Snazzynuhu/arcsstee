@@ -4,7 +4,7 @@ import { useGlobalContext } from "./context";
 import "./Search.css";
 import { data } from "./data";
 
-const SearchForm = ({onSearch}) => {
+const SearchForm = ({ onSearch }) => {
   const { id } = useParams();
   let inputRef = React.useRef();
   const searchPerson = (e) => {
@@ -25,7 +25,7 @@ const SearchForm = ({onSearch}) => {
           ref={inputRef}
           type="text"
           name="graduate"
-          placeholder="e.g Anita"
+          placeholder="e.g Anitha"
         />
         <button className="submit-btn" type="submit">
           search
