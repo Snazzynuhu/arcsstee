@@ -10,8 +10,6 @@ const SearchForm = ({ onSearch }) => {
   const searchPerson = (e) => {
     e.preventDefault();
     const searchTerm = inputRef.current.value;
-    console.log(searchTerm.toUpperCase());
-    // alert('hey')
     const filteredList = data.filter(({ name }) =>
       name.toLowerCase().includes(searchTerm.toLowerCase())
     );
