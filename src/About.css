@@ -6,12 +6,13 @@
 .about-title{
     text-align: center;
     text-transform: uppercase;
-    font-size: 3rem;
     color: var(--left-page-color);
+    font-size: 3rem;
     margin-top: 1rem;
 }
 .content{
     padding: 1.5rem;
+    font-size: 1.8rem;
     background-color: rgba(255, 255, 255, 0.381);
     margin: 0 1rem;
     line-height: 2.3rem;
@@ -24,5 +25,9 @@
 @media (max-width:400px){
     .about-title {
         font-size: 1.5rem;
+    }
+    .content {
+        padding: 1.5rem;
+        font-size: 1.2rem;
     }
 }
