@@ -26,10 +26,8 @@ const Home = () => {
             <h2 className="sub-title">Renaissance class</h2>
             <span className="extra">to the moon!!!</span>
             <p className="bottom-paragraph">
-              {" "}
-              <small>
-                I would like to die on Mars. Just not on impact.
-              </small>---->>>>> Elon Musk.
+              <small>I would like to die on Mars. Just not on impact</small> -
+              Elon Musk.
             </p>
           </div>
         </div>
