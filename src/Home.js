@@ -28,11 +28,8 @@ const Home = () => {
             <p className="bottom-paragraph">
               {" "}
               <small>
-                The best Lorem Ipsum Generator in all the sea! Heave this scurvy
-                copyfiller fer yarure and cajol yar clients into walking the
-                plank with ev'ry layout! Configure above, then get yer pirate
-                ipsum...
-              </small>
+                I would like to die on Mars. Just not on impact.
+              </small>---->>>>> Elon Musk.
             </p>
           </div>
         </div>
