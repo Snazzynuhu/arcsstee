@@ -24,9 +24,10 @@ import deolaA from "./images/deolaA.jpeg";
 // import deolaB from "./images/ deolaB.jpeg";
 import georgeA from "./images/georgeA.jpg";
 import georgeB from "./images/georgeB.jpg";
-import snazzypdf from "./graduates_projects/SNAZZY-PROJECT.pdf";
+// import snazzypdf from "./graduates_projects/SNAZZY-PROJECT.pdf";
 import alabipdf from "./graduates_projects/Alabi.pdf";
-console.log(image1);
+import noImage from "./images/no_image.png";
+
 export const data = [
   {
     id: 1,
@@ -220,4 +221,215 @@ export const data = [
     about:
       " The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
   },
+  {
+    id: 14,
+    name: "AKINPELUMI Adenike",
+    image: noImage,
+    imageb: noImage,
+    facebook: "https://www.kabir.com",
+    twitter: "https://www.snazzy.com",
+    linkedin: "https://www.snazzy.com",
+    profession: "resource personnel(ARCSTEE)",
+    department: "SATCOM",
+    quote: "Laissez faire",
+    about:
+      " The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
+  },
+  {
+    id: 15,
+    name: "AKINKUNMI Kulepa Asimiyu",
+    image: noImage,
+    imageb: noImage,
+    facebook: "https://www.kabir.com",
+    twitter: "https://www.snazzy.com",
+    linkedin: "https://www.snazzy.com",
+    profession: "resource personnel(ARCSTEE)",
+    department: "SATCOM",
+    quote: "Laissez faire",
+    about:
+      " The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
+  },
+  {
+    id: 16,
+    name: "NDI Mary Anne Muyang",
+    image: noImage,
+    imageb: noImage,
+    facebook: "https://www.kabir.com",
+    twitter: "https://www.snazzy.com",
+    linkedin: "https://www.snazzy.com",
+    profession: "resource personnel(ARCSTEE)",
+    department: "SATCOM",
+    quote: "Laissez faire",
+    about:
+      " The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
+  },
+  {
+    id: 17,
+    name: " OYINLOYE Kunle Olanrewaju",
+    image: noImage,
+    imageb: noImage,
+    facebook: "https://www.kabir.com",
+    twitter: "https://www.snazzy.com",
+    linkedin: "https://www.snazzy.com",
+    profession: "resource personnel(ARCSTEE)",
+    department: "SATCOM",
+    quote: "Laissez faire",
+    about:
+      " The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
+  },
+   {
+    id: 18,
+    name: "ASHIRU Kolawole Saheed",
+    image: noImage,
+    imageb: noImage,
+    facebook: "https://www.kabir.com",
+    twitter: "https://www.snazzy.com",
+    linkedin: "https://www.snazzy.com",
+    profession: "resource personnel(ARCSTEE)",
+    department: "SATCOM",
+    quote: "Laissez faire",
+    about:
+      " The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
+  },
+   {
+    id: 19,
+    name: "MULUBAH Lamah Dedee ",
+    image: noImage,
+    imageb: noImage,
+    facebook: "https://www.kabir.com",
+    twitter: "https://www.snazzy.com",
+    linkedin: "https://www.snazzy.com",
+    profession: "resource personnel(ARCSTEE)",
+    department: "SATCOM",
+    quote: "Laissez faire",
+    about:
+      " The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
+  },
+   {
+    id: 20,
+    name: "EZELOBE Ogochukwu Ukamaka",
+    image: noImage,
+    imageb: noImage,
+    facebook: "https://www.kabir.com",
+    twitter: "https://www.snazzy.com",
+    linkedin: "https://www.snazzy.com",
+    profession: "resource personnel(ARCSTEE)",
+    department: "SATCOM",
+    quote: "Laissez faire",
+    about:
+      " The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
+  },
+   {
+    id: 21,
+    name: "SAMUEL Tiworoiyang Timothy",
+    image: noImage,
+    imageb: noImage,
+    facebook: "https://www.kabir.com",
+    twitter: "https://www.snazzy.com",
+    linkedin: "https://www.snazzy.com",
+    profession: "resource personnel(ARCSTEE)",
+    department: "SATCOM",
+    quote: "Laissez faire",
+    about:
+      " The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
+  },
+   {
+    id: 22,
+    name: "AGYO Tsonde Ismaila",
+    image: noImage,
+    imageb: noImage,
+    facebook: "https://www.kabir.com",
+    twitter: "https://www.snazzy.com",
+    linkedin: "https://www.snazzy.com",
+    profession: "resource personnel(ARCSTEE)",
+    department: "SATCOM",
+    quote: "Laissez faire",
+    about:
+      " The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
+  },
+   {
+    id: 23,
+    name: "GANA Joseph",
+    image: noImage,
+    imageb: noImage,
+    facebook: "https://www.kabir.com",
+    twitter: "https://www.snazzy.com",
+    linkedin: "https://www.snazzy.com",
+    profession: "resource personnel(ARCSTEE)",
+    department: "SATCOM",
+    quote: "Laissez faire",
+    about:
+      " The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
+  },
+   {
+    id: 24,
+    name: "PETER Rose",
+    image: noImage,
+    imageb: noImage,
+    facebook: "https://www.kabir.com",
+    twitter: "https://www.snazzy.com",
+    linkedin: "https://www.snazzy.com",
+    profession: "resource personnel(ARCSTEE)",
+    department: "SATCOM",
+    quote: "Laissez faire",
+    about:
+      " The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
+  },
+   {
+    id: 25,
+    name: "Abubakar Sadiq Suleiman",
+    image: noImage,
+    imageb: noImage,
+    facebook: "https://www.kabir.com",
+    twitter: "https://www.snazzy.com",
+    linkedin: "https://www.snazzy.com",
+    profession: "resource personnel(ARCSTEE)",
+    department: "SATCOM",
+    quote: "Laissez faire",
+    about:
+      " The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
+  },
+   {
+    id: 26,
+    name: "TETTEH Ebenezer",
+    image: noImage,
+    imageb: noImage,
+    facebook: "https://www.kabir.com",
+    twitter: "https://www.snazzy.com",
+    linkedin: "https://www.snazzy.com",
+    profession: "resource personnel(ARCSTEE)",
+    department: "SATCOM",
+    quote: "Laissez faire",
+    about:
+      " The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
+  },
+   {
+    id: 27,
+    name: "OBUTE, Kate Nwadeobi ",
+    image: noImage,
+    imageb: noImage,
+    facebook: "https://www.kabir.com",
+    twitter: "https://www.snazzy.com",
+    linkedin: "https://www.snazzy.com",
+    profession: "resource personnel(ARCSTEE)",
+    department: "SATCOM",
+    quote: "Laissez faire",
+    about:
+      " The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
+  },
+   {
+    id: 28,
+    name: "DOGBEY Felicia",
+    image: noImage,
+    imageb: noImage,
+    facebook: "https://www.kabir.com",
+    twitter: "https://www.snazzy.com",
+    linkedin: "https://www.snazzy.com",
+    profession: "resource personnel(ARCSTEE)",
+    department: "SATCOM",
+    quote: "Laissez faire",
+    about:
+      " The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with every layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
+  },
+  
 ];
