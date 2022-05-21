@@ -39,7 +39,6 @@
     border-radius: 0.5rem;
     margin: 0.5rem auto;
 }
-
 .lower-paragraph {
     position: relative;
     top: 50%;
@@ -47,9 +46,11 @@
     transform: translate(-50%, -50%);
     line-height: 3rem;
     font-weight: bold;
+    font-size: 2rem;
 }
 .upper-paragraph{
     margin-top: 1.5rem;
+    font-size: 3rem;
 }
 
 /* RIGHT PAGE STYLE BEGINS */
@@ -95,7 +96,7 @@
     font-size: 1.5rem;
     bottom: 3rem;
     right: 0;
-    padding: 2rem;
+    padding: 3rem;
 }
 .footer{
     display: block;
@@ -173,6 +174,9 @@
     .upper-paragraph {
         margin-top: 0.5rem;
     }
+    .lower-paragraph{
+        font-size: 1.5rem;
+    }
     .book-right {
         padding: 0.5rem 2rem;
     }
@@ -201,6 +205,9 @@
         font-weight: bold;
         word-spacing: 0.2rem;
         letter-spacing: 0.3rem;
+    }
+    .bottom-paragraph{
+        font-size: 1rem;
     }
     .footer{
         font-size: 1.5rem;
